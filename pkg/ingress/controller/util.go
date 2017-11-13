@@ -23,7 +23,7 @@ import (
 
 	api "k8s.io/api/core/v1"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
 )
 
 // DeniedKeyName name of the key that contains the reason to deny a location

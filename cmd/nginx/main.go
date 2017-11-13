@@ -22,7 +22,7 @@ import (
 	"syscall"
 	"time"
 
-	"k8s.io/ingress-nginx/pkg/nginx/controller"
+	"github.com/BoxLinker/ingress-nginx/pkg/nginx/controller"
 
 	"github.com/golang/glog"
 )

@@ -27,10 +27,10 @@ import (
 	extensions "k8s.io/api/extensions/v1beta1"
 	"k8s.io/client-go/tools/cache"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/class"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/parser"
-	"k8s.io/ingress-nginx/pkg/net/ssl"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/class"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/parser"
+	"github.com/BoxLinker/ingress-nginx/pkg/net/ssl"
 )
 
 // syncSecret keeps in sync Secrets used by Ingress rules with the files on

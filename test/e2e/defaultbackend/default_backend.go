@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/parnurzeal/gorequest"
 
-	"k8s.io/ingress-nginx/test/e2e/framework"
+	"github.com/BoxLinker/ingress-nginx/test/e2e/framework"
 )
 
 const defaultBackend = "default backend - 404"

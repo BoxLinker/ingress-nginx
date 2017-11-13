@@ -29,9 +29,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	fcache "k8s.io/client-go/tools/cache/testing"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/class"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/parser"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/class"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/parser"
 )
 
 type cacheController struct {

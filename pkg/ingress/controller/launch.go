@@ -23,8 +23,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/k8s"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/k8s"
 )
 
 // NewIngressController returns a configured Ingress controller

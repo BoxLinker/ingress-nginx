@@ -24,8 +24,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"k8s.io/ingress-nginx/pkg/ingress/defaults"
-	"k8s.io/ingress-nginx/pkg/ingress/resolver"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/defaults"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/resolver"
 )
 
 const (

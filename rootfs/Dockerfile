@@ -14,7 +14,7 @@
 
 FROM BASEIMAGE
 
-CROSS_BUILD_COPY qemu-QEMUARCH-static /usr/bin/
+#CROSS_BUILD_COPY qemu-QEMUARCH-static /usr/bin/
 
 # install dumb-init from zesty
 RUN if grep -q -i "ports.ubuntu.com" /etc/apt/sources.list; \

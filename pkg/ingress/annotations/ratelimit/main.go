@@ -24,9 +24,9 @@ import (
 
 	extensions "k8s.io/api/extensions/v1beta1"
 
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/parser"
-	"k8s.io/ingress-nginx/pkg/ingress/resolver"
-	"k8s.io/ingress-nginx/pkg/net"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/parser"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/resolver"
+	"github.com/BoxLinker/ingress-nginx/pkg/net"
 )
 
 const (

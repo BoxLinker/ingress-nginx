@@ -40,14 +40,14 @@ import (
 	apiv1 "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/controller"
-	"k8s.io/ingress-nginx/pkg/ingress/defaults"
-	"k8s.io/ingress-nginx/pkg/net/dns"
-	"k8s.io/ingress-nginx/pkg/net/ssl"
-	"k8s.io/ingress-nginx/pkg/nginx/config"
-	ngx_template "k8s.io/ingress-nginx/pkg/nginx/template"
-	"k8s.io/ingress-nginx/version"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/controller"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/defaults"
+	"github.com/BoxLinker/ingress-nginx/pkg/net/dns"
+	"github.com/BoxLinker/ingress-nginx/pkg/net/ssl"
+	"github.com/BoxLinker/ingress-nginx/pkg/nginx/config"
+	ngx_template "github.com/BoxLinker/ingress-nginx/pkg/nginx/template"
+	"github.com/BoxLinker/ingress-nginx/version"
 )
 
 type statusModule string

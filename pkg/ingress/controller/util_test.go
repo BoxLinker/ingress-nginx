@@ -20,15 +20,15 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/auth"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/authreq"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/cors"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/ipwhitelist"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/proxy"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/ratelimit"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/redirect"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/rewrite"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/auth"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/authreq"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/cors"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/ipwhitelist"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/proxy"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/ratelimit"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/redirect"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/rewrite"
 )
 
 type fakeError struct{}

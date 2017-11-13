@@ -26,7 +26,7 @@ import (
 	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/client-go/util/cert/triple"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
 )
 
 // generateRSACerts generates a self signed certificate using a self generated ca

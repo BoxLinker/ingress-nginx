@@ -27,10 +27,10 @@ import (
 	api "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 
-	"k8s.io/ingress-nginx/pkg/file"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/parser"
-	ing_errors "k8s.io/ingress-nginx/pkg/ingress/errors"
-	"k8s.io/ingress-nginx/pkg/ingress/resolver"
+	"github.com/BoxLinker/ingress-nginx/pkg/file"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/parser"
+	ing_errors "github.com/BoxLinker/ingress-nginx/pkg/ingress/errors"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/resolver"
 )
 
 const (

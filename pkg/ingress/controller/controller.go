@@ -43,17 +43,17 @@ import (
 	"k8s.io/client-go/util/flowcontrol"
 	"k8s.io/kubernetes/pkg/kubelet/util/sliceutils"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/class"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/healthcheck"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/parser"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/proxy"
-	"k8s.io/ingress-nginx/pkg/ingress/defaults"
-	"k8s.io/ingress-nginx/pkg/ingress/resolver"
-	"k8s.io/ingress-nginx/pkg/ingress/status"
-	"k8s.io/ingress-nginx/pkg/k8s"
-	"k8s.io/ingress-nginx/pkg/net/ssl"
-	"k8s.io/ingress-nginx/pkg/task"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/class"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/healthcheck"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/parser"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/proxy"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/defaults"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/resolver"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/status"
+	"github.com/BoxLinker/ingress-nginx/pkg/k8s"
+	"github.com/BoxLinker/ingress-nginx/pkg/net/ssl"
+	"github.com/BoxLinker/ingress-nginx/pkg/task"
 )
 
 const (

@@ -18,9 +18,11 @@ BUILDTAGS=
 
 # Use the 0.0 tag for testing, it shouldn't clobber any release builds
 TAG?=0.9.0-beta.15
-REGISTRY?=quay.io/kubernetes-ingress-controller
+#REGISTRY?=quay.io/kubernetes-ingress-controller
+REGISTRY?=registry.cn-beijing.aliyuncs.com/cabernety
 GOOS?=linux
-DOCKER?=gcloud docker --
+#DOCKER?=gcloud docker --
+DOCKER?=docker
 SED_I?=sed -i
 GOHOSTOS ?= $(shell go env GOHOSTOS)
 
@@ -34,7 +36,8 @@ ifndef COMMIT
   COMMIT := git-$(shell git rev-parse --short HEAD)
 endif
 
-PKG=k8s.io/ingress-nginx
+#PKG=k8s.io/ingress-nginx
+PKG=github.com/BoxLinker/ingress-nginx
 
 ARCH ?= $(shell go env GOARCH)
 GOARCH = ${ARCH}

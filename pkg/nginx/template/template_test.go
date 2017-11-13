@@ -26,10 +26,10 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/authreq"
-	"k8s.io/ingress-nginx/pkg/ingress/annotations/rewrite"
-	"k8s.io/ingress-nginx/pkg/nginx/config"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/authreq"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/annotations/rewrite"
+	"github.com/BoxLinker/ingress-nginx/pkg/nginx/config"
 )
 
 var (

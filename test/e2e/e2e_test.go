@@ -19,7 +19,7 @@ import (
 	"github.com/golang/glog"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"k8s.io/ingress-nginx/test/e2e/framework"
+	"github.com/BoxLinker/ingress-nginx/test/e2e/framework"
 )
 
 func init() {

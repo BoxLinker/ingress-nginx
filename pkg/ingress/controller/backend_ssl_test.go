@@ -28,9 +28,9 @@ import (
 	cache_client "k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/flowcontrol"
 
-	"k8s.io/ingress-nginx/pkg/ingress"
-	"k8s.io/ingress-nginx/pkg/ingress/store"
-	"k8s.io/ingress-nginx/pkg/task"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/store"
+	"github.com/BoxLinker/ingress-nginx/pkg/task"
 	"k8s.io/kubernetes/pkg/api"
 )
 

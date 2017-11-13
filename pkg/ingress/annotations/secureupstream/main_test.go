@@ -26,7 +26,7 @@ import (
 	"fmt"
 
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/ingress-nginx/pkg/ingress/resolver"
+	"github.com/BoxLinker/ingress-nginx/pkg/ingress/resolver"
 )
 
 func buildIngress() *extensions.Ingress {
